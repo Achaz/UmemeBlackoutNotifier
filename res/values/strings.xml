@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Umeme</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txtDemo">This is the DashBoard pattern example by Paresh N. Mayani @ www.technotalkative.com </string>
+    <string name="bin_name">Phone Number</string>
+    <string name="bin_desc">Notification</string>
+    <string name="add">Post</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <!-- Activity Titles -->
+    <string name="set_email">Set name</string>
+    <string name="log_out">Log out</string>
+    <string name="status">You are not logged in</string>
+    <string name="email">Enter Username</string>
+    <string name="email_hint">enter name</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="view2">View</string>
+    <string name="view1">View place</string>
+    <string name="HomeActivityTitle">Kara</string>
+    <string name="FeedbackActivityTitle">Feedback</string>
+    <string name="EclairActivityTitle">Add Complaint</string>
+    <string name="FroyoActivityTitle">View Complaint</string>
+    <string name="GingerbreadActivityTitle">Statistics</string>
+    <string name="HoneycombActivityTitle">About App</string>
+    <string name="ICSActivityTitle">ICS 4.0.x</string>
+    <string name="JellyBeanActivityTitle">JellyBean (May be 4.1)</string>
+    <string name="about_binit">Help us to update the others as we update you. Let us know as and when your area gets a power cut off.</string>
+    <string name="team"> Powered by SMS Media (www.smsmedia.info)</string>
+</resources>

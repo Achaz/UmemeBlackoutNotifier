@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <item 
+        android:id="@+id/menu_addlog"
+    	android:title="Add Log" />
+    <item 
+        android:id="@+id/menu_viewLog"
+    	android:title="View Log" />
+    <item 
+        android:id="@+id/menu_settings"
+    	android:title="Statistics" />
+    <item 
+        android:id="@+id/menu_aboutApp"
+    	android:title="About App" />
+    <item 
+        android:id="@+id/menu_dashboard"
+    	android:title="Home" />
+    <item 
+        android:id="@+id/menu_popup"
+    	android:title="Settings" />
+    <item 
+        android:id="@+id/menu_map"
+        android:title="View Map"/>
+    <item 
+        android:id="@+id/menu_update"
+        android:title="View Update"/>
+    
+</menu>

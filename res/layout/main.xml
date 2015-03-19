@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#CCCC99" >
+
+    <!-- Included header.xml here -->
+	<ViewStub 
+	    android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/header" />
+
+	<LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="6dip">
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip"
+        android:layout_weight="1">
+        
+        <Button 
+            android:id="@+id/main_btn_eclair"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/EclairActivityTitle"
+            android:drawableTop="@drawable/add_me"/>
+        
+        <Button 
+            android:id="@+id/main_btn_froyo"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Umeme \n Feedback"
+            android:drawableTop="@drawable/find_logs"/>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dip"
+        android:layout_weight="1"
+        >
+        <Button 
+            android:id="@+id/main_btn_honeycomb"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/HoneycombActivityTitle"
+            android:drawableTop="@drawable/faq_green"/>
+        
+        <Button 
+            android:id="@+id/updates"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maintenance \n Schedule"
+            android:layout_weight="0.5"
+            android:drawableTop="@drawable/interact"/>
+        
+    </LinearLayout>
+    
+  
+</LinearLayout>
+
+
+</LinearLayout>
